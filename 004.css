@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dl{
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+}
+li > a{
+    color: black !important;
+    font-weight: 600 !important;
+}
+nav{
+    padding: 24px 80px;
+}
+.skills{
+    margin: 20px 32px 0px 32px;
+}
+.skills > img{
+    width: 18%;
+    padding-bottom: 40px;
+}
+.frame{
+    padding: 60px 80px;
+}
+.gg, .apple{
+    background-color: black;
+    color: white;
+    border: 1px solid gray !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.youtobe{
+    background-color: #27272A;
+    color: white;
+    border: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bars{
+    display: none;
+}
+.Banner-1{
+    display: none;
+}
+.column{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    ul li{
+        display: none ;
+    }
+    .b{
+        display: none !important;
+    }
+    nav{
+        position: relative;
+        padding: 20px 10px;
+    }
+    .bars{
+        display: inline;
+        font-size: 50px;
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        top: -5px;
+        right: 10px;
+    }
+    .men{
+        display: none;
+    }
+    .Banner-1{
+        display: block;
+        margin: 0 auto;
+        height: 322px;
+        padding: 40px 16px 0px 16px;
+    }
+    .skills{
+        display: none !important;
+    }
+    .column{
+        display: block;
+        margin: 0 auto;
+    }
+}
